@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 	"time"
-	"https://github.com/azizarash/GolangProjects/tree/main/DigitalClock/screen-master"
+	"https://github.com/azizarash/GolangProjects/tree/main/DigitalClock/screen"
 
 	
 )
