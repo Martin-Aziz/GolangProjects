@@ -16,7 +16,7 @@ const (
 func main() {
 	args := os.Args[1:]
 	if len(args) != 1 {
-		fmt.Println("gimme somethin' to mask!")
+		fmt.Println("Enter Text!")
 		return
 	}
 
