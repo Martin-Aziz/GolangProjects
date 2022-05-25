@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/inancgumus/screen"
+	"https://github.com/azizarash/GolangProjects/tree/main/DigitalClock/screen"
 )
 
 func main() {
