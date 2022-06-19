@@ -1,0 +1,23 @@
+version: "2"
+services:
+  bugs:
+    build:
+      context: ./bugs
+    container_name: bugs
+    ports:
+      - 8800:8081
+    restart: always
+  notificator:
+    build:
+      context: ./notificator
+    container_name: notificator
+    ports:
+      - 8801:8082
+    restart: always
+  users:
+    build:
+      context: ./users
+    container_name: users
+    ports:
+      - 8802:8081
+    restart: always
