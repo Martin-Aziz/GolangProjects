@@ -1,7 +1,11 @@
 package main
 
 import "fmt"
-
+// if we want  to create multiple variables 
+var(
+	firstName string
+	lastName string
+)
 func main() {
 	var a = "initial"
 	fmt.Println(a)
