@@ -5,6 +5,11 @@ import (
 	"math"
 )
 
+const(
+	name string ="Jame"
+	lastName string ="mss"
+) 
+
 const s string = "constant"
 
 func main() {
